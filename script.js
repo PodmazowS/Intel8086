@@ -2,10 +2,9 @@ var hex = /^[A-F]+$/;
 var b1 = [ "pax", "pbx", "pcx", "pdx"]; 
 var b2 = [ "pax2", "pbx2", "pcx2", "pdx2"];
 var rejestry = ["ax", "bx", "cx", "dx"]; 
-var rejestry2 = ["si", "di", "bp", "bx"];
 var stack = [0, 0, 0 ,0];
 
-var r1, r2, rej1="", rej2="";
+var r1, r2, rej1="";
 
 
 function checkhex(){
