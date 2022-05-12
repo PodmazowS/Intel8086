@@ -28,6 +28,17 @@ function mov(){
                 break;
             }
     }
+    for(var i=0; i<4; i++)
+    {
+        if(document.getElementById(b2[i]).checked == true)
+            {
+                rej2 = rejestry[i];
+                break;
+            }
+    }
+    document.getElementById(rej2).value=
+    document.getElementById(rej1).value;
+    
 }
 
 function xchg(){
@@ -69,6 +80,8 @@ function zer(){
     }
 
 }
+
+
 
 
 
