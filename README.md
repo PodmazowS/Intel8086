@@ -1,1 +1,1 @@
-# Intel8086
+# Symulacja rozkazu procesora 8086
