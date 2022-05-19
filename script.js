@@ -71,12 +71,12 @@ function zer(){
 
     for(var x=0; x<4; x++)
     {
-     document.getElementById(rejestry[x]).value = '0000';
+     document.getElementById(rejestry[x]).value = '00';
     }
  
     for(var x=0; x<4; x++)
     {
-     document.getElementById(rejestry2[x]).value = '0000';
+     document.getElementById(rejestry2[x]).value = '00';
     }
 
 }
